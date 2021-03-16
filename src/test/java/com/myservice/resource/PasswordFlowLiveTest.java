@@ -15,8 +15,8 @@ import io.restassured.response.Response;
 
 public class PasswordFlowLiveTest {
 
-	private final static String AUTH_SERVER = "http://localhost:8083/auth/realms/myservice/protocol/openid-connect";
-	private final static String RESOURCE_SERVER = "http://localhost:8081/resource-server";
+	private final static String AUTH_SERVER = "http://78.47.114.254:8083/auth/realms/myservice/protocol/openid-connect";
+	private final static String RESOURCE_SERVER = "http://78.47.114.254:8081/resource-server";
 	private final static String CLIENT_ID = "newClient";
 	private final static String CLIENT_SECRET = "newClientSecret";
 	private final static String USERNAME = "john@test.com";
