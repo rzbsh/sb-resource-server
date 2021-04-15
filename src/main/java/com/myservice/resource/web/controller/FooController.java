@@ -31,7 +31,7 @@ public class FooController {
         this.fooService = fooService;
     }
 
-    @CrossOrigin(origins = {"http://78.47.114.254:8089", "http://http://78.47.114.254:80"})
+    @CrossOrigin(origins = {"http://78.47.114.254:8089", "http://78.47.114.254:80"})
     @GetMapping(value = "/{id}")
     public FooDto findOne(@PathVariable Long id) {
         Foo entity = fooService.findById(id)
